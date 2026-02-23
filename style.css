@@ -348,4 +348,146 @@ section {
 .Contact form .btn{
     margin-top: 2rem;
     cursor: pointer;
+
+}
+
+/* ========================= */
+/* ====== LARGE DESKTOP ===== */
+/* ========================= */
+@media (min-width: 1200px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+/* ========================= */
+/* ====== LAPTOP ========= */
+/* ========================= */
+@media (max-width: 1200px) {
+
+    .intro-para,
+    .intro-paras {
+        width: 100%;
+    }
+
+    .project-content {
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .project-one,
+    .project-two,
+    .project-three,
+    .project-four,
+    .project-five {
+        width: 45%;
+    }
+}
+
+/* ========================= */
+/* ====== TABLET ========= */
+/* ========================= */
+@media (max-width: 992px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    .Home {
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    .photo {
+        height: 250px;
+        width: 200px;
+    }
+
+    .skill-subject-one {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .sub-name {
+        width: 45%;
+        height: auto;
+        padding: 3rem 1rem;
+    }
+
+    .project-one,
+    .project-two,
+    .project-three,
+    .project-four,
+    .project-five {
+        width: 80%;
+    }
+
+    .Contact form .input-box input {
+        width: 100%;
+    }
+}
+
+/* ========================= */
+/* ====== MOBILE ========= */
+/* ========================= */
+@media (max-width: 600px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    section {
+        padding: 8rem 5% 2rem;
+    }
+
+    .header {
+        padding: 2rem 5%;
+    }
+
+    .navigation {
+        display: none; /* Agar hamburger nahi hai to hide */
+    }
+
+    .title-name {
+        font-size: 3rem;
+    }
+
+    .profession-name {
+        font-size: 2.5rem;
+    }
+
+    .text {
+        font-size: 2rem;
+    }
+
+    .intro-para,
+    .intro-paras {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    .sub-name {
+        width: 100%;
+    }
+
+    .project-one,
+    .project-two,
+    .project-three,
+    .project-four,
+    .project-five {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .portfolio {
+        width: 100%;
+    }
+
+    .photo {
+        width: 180px;
+        height: 220px;
+    }
 }
